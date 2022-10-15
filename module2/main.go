@@ -10,7 +10,7 @@ import (
 
 func main() {
 	http.HandleFunc("/healthz", myHandle)
-	err := http.ListenAndServe(":80", nil)
+	err := http.ListenAndServe(":8999", nil)
 	if err != nil {
 		log.Println("系统运行异常", err)
 	}
