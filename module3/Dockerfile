@@ -4,7 +4,7 @@ ENV GOPROXY=https://goproxy.cn
 
 #获取时区配置、证书配置
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories && \
-  apk add --no-cache upx ca-certificates tzdata \
+  apk add --no-cache upx ca-certificates tzdata
 
 COPY ./go.mod ./
 COPY ./go.sum ./
