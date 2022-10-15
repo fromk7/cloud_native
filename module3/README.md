@@ -4,8 +4,7 @@
 ```
 module3 
  ---Dockerfile 即构建容器的文件 
- ---main.go httpserver程序代码 
- ---README.md module3使用说明文件
+ ---main.go httpserver程序代码
  ---go.mod、go.sum 依赖
 ```
 ## 构建httpserver容器镜像
