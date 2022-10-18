@@ -13,7 +13,7 @@ module3
 ```
 ## 运行httpserver容器镜像
 ```
-docker run myhttpserver:1.0
+docker run myhttpserver:1.0 -p 8999:8999
 ```
 ## 访问httpserver
 ```
